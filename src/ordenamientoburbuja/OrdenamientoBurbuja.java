@@ -28,6 +28,9 @@ public class OrdenamientoBurbuja {
             numeros[i] = leer.nextInt();
         }
     }
+    /**
+     * Metodo encargado de organizar numeros
+     */    
     private void organizarNumeros(){
         int cambio=0;
         for(int i = 0; i< tamanovec; i++){
