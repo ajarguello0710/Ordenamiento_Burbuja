@@ -22,6 +22,10 @@ public class OrdenamientoBurbuja {
         tamanovec = leer.nextInt();
         numeros = new int[tamanovec];
     }
+    
+    /**
+     * Metodo encargado de organizar numeros
+     */        
     private void solicitarNumeros(){
         for(int i=0; i<tamanovec; i++){
             System.out.print("Ingrese numero "+ (i+1) +" : ");
