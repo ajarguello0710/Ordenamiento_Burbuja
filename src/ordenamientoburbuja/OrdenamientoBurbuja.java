@@ -20,7 +20,7 @@ public class OrdenamientoBurbuja {
     private void solicitarTamano(){
         boolean validar;
         do{
-            validar = true;0
+            validar = true;
             System.out.print("Ingrese cuantos numeros va ha ingresar: ");
             tamanovec = leer.nextInt();
             if(tamanovec <= 0){
