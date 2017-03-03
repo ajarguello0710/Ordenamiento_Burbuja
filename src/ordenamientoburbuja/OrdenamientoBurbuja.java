@@ -18,8 +18,17 @@ public class OrdenamientoBurbuja {
         imprmirNumeros();
     }
     private void solicitarTamano(){
-        System.out.print("Ingrese cuantos numeros va ha ingresar: ");
-        tamanovec = leer.nextInt();
+        boolean validar;
+        do{
+            validar = true;0
+            System.out.print("Ingrese cuantos numeros va ha ingresar: ");
+            tamanovec = leer.nextInt();
+            if(tamanovec <= 0){
+                System.out.println("No valido.");
+                validar = false;
+            }
+        }while(!validar);
+        
         numeros = new int[tamanovec];
     }
     
